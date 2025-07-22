@@ -24,7 +24,7 @@ public class StudentMain {
                     String grade = report.findGrades(data[i]);
                     System.out.println("Grade = " + grade);
                 }
-            } catch (NullNameException | NullMarksArrayException | NullStudentObjectException e) {
+            } catch (NullName | NullMarksArray| NullStudentobject e) {
                 e.printStackTrace();
             }
         }
